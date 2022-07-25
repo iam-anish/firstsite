@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+form{
+    border: 2px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 800px;
+    border-radius: 20px;
+}
+form,label,h1,h3,h4{
+    background-color: rgb(210, 218, 214);
+}
+textarea{
+    border-radius: 8px;
+    border: 2px solid black;
+}
+.a{
+    background-color: royalblue;
+}
+div{
+    margin: 10px;
+    background-color: royalblue;
+    padding: 7px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+}

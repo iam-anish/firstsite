@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <form action="" style="background-color: rgb(210, 218, 214);">
+    <h1>Contact Us</h1>
+
+       <div>
+        <label for="name" class="a">Full name *</label><br>
+        <input type="text" name="fullname" id="" placeholder="Please type your name"> <br>
+    </div>
+    <div>
+        <label for="name" class="a">Email *</label><br>
+        <input type="email" name="email" id="" placeholder="Enter mail"> <br>
+    </div>
+    <div>
+        <label for="name" class="a">Phone Number *</label><br>
+        <input type="number" name="phonenum" id="" placeholder="Enter phone number"><br>
+    </div>
+    <div>
+        <label for="service" class="a">Needed Services</label><br>
+        <select name="service" id="services">
+            <option value="default">--select your bussiness--</option>
+            <option value="1">E-commerce bussiness</option>
+            <option value="2">Offline bussiness</option>
+            <option value="3">Affilate marketing</option>
+        </select>
+    </div>
+        <h4>What type of product do you sell?</h4>
+        <input type="radio" id="phisical" name="product" value="physical">
+        <label for="physical">Physical Products</label><br>
+        <input type="radio" id="digital" name="product" value="digital">
+        <label for="digital">Digital Products</label><br>
+        <input type="radio" id="service" name="product" value="service">
+        <label for="service">Service Consulting</label><br>
+
+        <h4>Budget *</h4>
+
+        <label for="budget">1500 - 4000 Rs</label><br>
+        <input type="range" id="points" name="points" min="0" max="10"><br>
+
+        <label for="message">Message</label><br>
+        <textarea name="message" id="" cols="30" rows="10"></textarea><br>
+  
+        <button type="submit">Submit &#8594;</button>
+</form>
+</body>
+</html>
